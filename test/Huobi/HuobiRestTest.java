@@ -23,7 +23,7 @@ public class HuobiRestTest {
     private final String statusOk = "\"status\":\"ok\"";
 
     public HuobiRestTest() {
-//        hr = new HuobiRest("key", "secret");
+       hr = new HuobiRest("key", "secret");
     }
 
     @BeforeClass
